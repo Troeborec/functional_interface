@@ -15,4 +15,12 @@ public class Dog {
     public int getAge() {
         return age;
     }
+
+    @Override
+    public String toString() {
+        return "Dog{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                '}';
+    }
 }
